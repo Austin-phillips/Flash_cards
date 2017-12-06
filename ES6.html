@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.scss">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <title>ES6</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Flash Cards</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <ul class="navbar-nav">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Select Content
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="ES6.html">ES6</a>
+        <a class="dropdown-item" href="WebPack.html">WebPack</a>
+      </div>
+    </li>
+  </ul>
+</div>
+</nav>
+<div class='container'>
+  <div class='row'>
+    <!-- Question 1 -->
+    <div class='col shape'>
+      <p class='card-text'>What is the most important new feature of Let and Const variables?</p>
+      <button class='show-button btn waves-effect waves-light'>Show Answer</button>
+      <p class="answer">They are Block Scoped. <br />var is function scoped.</p>
+    </div>
+  </div>
+  <div class='row'>
+    <!-- Question 2 -->
+    <div class='col shape'>
+      <p class='card-text'>Name the most important benefit of using let and consts and explain why it is important.</p>
+      <button class='show-button2 btn waves-effect waves-light'>Show Answer</button>
+      <p class="answer2">Rather than being scoped to the function, it is scoped to the block.<br />
+          This prevents variables leaking out of blocks into parent functions and even the window in certain cases.</p>
+    </div>
+  </div>
+  <div class='row'>
+    <!-- Question 3 -->
+    <div class='col shape'>
+      <p class='card-text'>Can you update a variable</p>
+      <button class='show-button3 btn waves-effect waves-light'>Show Answer</button>
+      <p class="answer3">Yes</p>
+    </div>
+  </div>
+  <div class='row'>
+    <!-- Question 4 -->
+    <div class='col s12 shape'>
+      <p class='card-text'>Can you redefine a let in the same scope</p>
+      <button class='show-button4 btn waves-effect waves-light'>Show Answer</button>
+      <p class="answer4">No, it will throw an error</p>
+    </div>
+  </div>
+  <div class='row'>
+    <!-- Question 5 -->
+    <div class='col s12 shape'>
+      <p class='card-text'>Can const variables be updated?</p>
+      <button class='show-button5 btn waves-effect waves-light'>Show Answer</button>
+      <p class="answer5">No. But with objects properties my be updated.</p>
+    </div>
+  </div>
+  <div class='row'>
+    <!-- Question 6 -->
+    <div class='col s12 shape'>
+      <p class='card-text'>Two reasons for using let and const</p>
+      <button class='show-button6 btn waves-effect waves-light'>Show Answer</button>
+      <p class="answer6">Scope something to a block, Creating a variable that cannot be changed</p>
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
